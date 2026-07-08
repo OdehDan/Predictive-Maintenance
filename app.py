@@ -36,7 +36,7 @@ def engineer_features(df):
 def risk_category(score):
     if score <= 15:
         return "Safe"
-    elif score <= 45:
+    elif score <= 25:
         return "Watch closely"
     elif score <= 75:
         return "High risk"
